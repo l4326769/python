@@ -1,0 +1,10 @@
+import cv2
+img=cv2.imread("D:/Download/002.jpg",1)
+#cv2.imshow("xianshi",img)
+#cv2.imwrite("D:/Download/002bianjihou.png",img,[cv2.IMWRITE_PNG_COMPRESSION,0])
+(b,g,r)=img[100,100]
+print(b)
+for i in range(100):
+    img[10+i,100]=(255,0,0)
+cv2.imshow("image",img)
+cv2.waitKey(0)
