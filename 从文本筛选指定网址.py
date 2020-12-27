@@ -1,8 +1,8 @@
 ﻿#文档2为访问记录
 #文档3为服务器总和
 #如果是其他软件生成的文本记得重新创建一个文本并复制内容到新建的txt
-f1=open("C:/Users/刘亚威/Desktop/log.txt")
-f2=open("C:/Users/刘亚威/Desktop/谷歌全球服务器.txt")
+f1=open("C:/Users//Desktop/log.txt")
+f2=open("C:/Users//Desktop/谷歌全球服务器.txt")
 lst1=[]
 lst2=[]
 lst3=[]
